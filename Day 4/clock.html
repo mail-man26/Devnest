@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clock</title>
+    <style type="text/css">
+
+    body{
+       background: radial-gradient(rgb(200, 0, 250),black);
+       text-align:center;
+    }
+    .clock{
+        width: 500px;
+        height: 500px;
+        background: radial-gradient(white,yellow);
+        display: inline-block;
+        border-radius: 50%;
+        border: 60px solid blue;
+    }
+    
+    .second{
+        height: 250px;
+        width: 6px;
+        border-radius:10px;
+        background: radial-gradient(white,red);
+        line-height: 45px;
+        position: relative;
+        left: 453px;
+        bottom: 550px;
+
+    }
+    .minute
+    {
+        height: 200px;
+        width: 10px;
+        border-radius:10px;
+        background: radial-gradient(white,black);
+        line-height: 45px;
+        position: relative;
+        left: 450px;
+        bottom: 550px;
+    }
+    
+    .hour{
+        height: 260px;
+        width: 10px;
+        border-radius:10px;
+        background: radial-gradient(white,black);
+        line-height: 45px;
+        position: relative;
+        left: 450px;
+        bottom: 800px;
+    }
+    
+    
+    </style>
+</head>
+<body>
+    <div class = "clock"></div>
+    <div class = "second"></div>
+    <div class = "minute"></div>
+    <div class = "hour"></div>
+</body>
+</html>
