@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz_box">
+        <div class="quiz-header">
+            <span>Score: <span id="score">0</span></span>
+            <span id="countdown">0</span>
+        </div>
+        <div class="quiz_body">
+            <div class="quiz_set active">
+                <h4>1. Grand Central Terminal, Park Avenue, New York is the world's</h4>
+                <div class="quiz_ans_row">
+                    <input type="radio" name="a1">
+                    <span>highest railway station</span>
+                </div>
+                <div class="quiz_ans_row">
+                    <input type="radio" name="a1" valid="valid">
+                    <span>largest railway station</span>
+                </div>
+                <div class="quiz_ans_row">
+                    <input type="radio" name="a1">
+                    <span>longest railway station</span>
+                </div>
+                <div class="quiz_ans_row">
+                    <input type="radio" name="a1">
+                    <span>none of these</span>
+                </div>
+            </div>
+            <div class="quiz_set">
+                <h4>2. Entomology is the science that studies</h4>
+                <div class="quiz_ans_row">
+                    <input type="radio" name="a2" valid="valid">
+                    <span>Insects</span>
+                </div>
+                <div class="quiz_ans_row">
+                    <input type="radio" name="a2" >
+                    <span>Behavior of human beings</span>
+                </div>
+                <div class="quiz_ans_row">
+                    <input type="radio" name="a2">
+                    <span>The origin and history of technical and scientific terms</span>
+                </div>
+                <div class="quiz_ans_row">
+                    <input type="radio" name="a2">
+                    <span>The formation of rocks</span>
+                </div>
+            </div>
+            <div class="quiz_set">
+                <h4>3. Eritrea, which became the 182nd member of the UN in 1993, is in the continent of</h4>
+                <div class="quiz_ans_row">
+                    <input type="radio" name="a3">
+                    <span>Asia</span>
+                </div>
+                <div class="quiz_ans_row">
+                    <input type="radio" name="a3" >
+                    <span>Europe</span>
+                </div>
+                <div class="quiz_ans_row">
+                    <input type="radio" name="a3" valid="valid">
+                    <span>Africa</span>
+                </div>
+                <div class="quiz_ans_row">
+                    <input type="radio" name="a3">
+                    <span>Australia</span>
+                </div>
+            </div>
+            <div class="quiz_set">
+                <h4>4. Garampani sanctuary is located at</h4>
+                <div class="quiz_ans_row">
+                    <input type="radio" name="a4">
+                    <span>Junagarh, Gujarat</span>
+                </div>
+                <div class="quiz_ans_row">
+                    <input type="radio" name="a4" valid="valid">
+                    <span>Diphu, Assam</span>
+                </div>
+                <div class="quiz_ans_row">
+                    <input type="radio" name="a4">
+                    <span>Kohima, Nagaland</span>
+                </div>
+                <div class="quiz_ans_row">
+                    <input type="radio" name="a4">
+                    <span>Gangtok, Sikkim</span>
+                </div>
+            </div>
+            <div class="quiz_set">
+                <h4>5. For which of the following disciplines is Nobel Prize awarded?</h4>
+                <div class="quiz_ans_row">
+                    <input type="radio" name="a5">
+                    <span>Physics and Chemistry</span>
+                </div>
+                <div class="quiz_ans_row">
+                    <input type="radio" name="a5">
+                    <span>Physiology or Medicine</span>
+                </div>
+                <div class="quiz_ans_row">
+                    <input type="radio" name="a5">
+                    <span>Literature, Peace and Economics</span>
+                </div>
+                <div class="quiz_ans_row">
+                    <input type="radio" name="a5" valid="valid">
+                    <span>All of the above</span>
+                </div>
+            </div>
+            <div class="quiz_set ">
+                <h4>Your total score <span id="totalScore">0</span> out of 50</h4>
+            </div>
+        </div>
+        <div class="quiz_footer">
+            <span class="btn1" id="skip">Skip</span>
+        </div>
+    </div>
+    
+</body>
+<script src="./script.js"></script>
+</html>
